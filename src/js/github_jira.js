@@ -2,6 +2,7 @@ $(function() {
     console.log("GitHub JIRA Issue Links Rewriter Extension is loaded");
 
     var GITHUB_COMMENT_TAG_SELECTORS = [
+        '.commit-title',
         '.js-issue-title',
         '.comment-body'
     ];
