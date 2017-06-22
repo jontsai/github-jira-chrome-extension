@@ -3,6 +3,7 @@ $(function() {
 
     var GITHUB_COMMENT_TAG_SELECTORS = [
         '.commit-title',
+        '.gh-header-title',
         '.js-issue-title',
         '.comment-body'
     ];
